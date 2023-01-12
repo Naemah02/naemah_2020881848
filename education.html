@@ -1,0 +1,130 @@
+
+<html>
+<head>
+<link href="Asset/css/styleeducation.css" rel="stylesheet">
+<title>Education</title>
+</head>
+<body>
+
+<h1><font size="103pt" font color="white">EDUCATION</h1></font>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="biodata.html">Biodata</a></li>
+  <li><a href="experience.html">Experience</a></li>
+  <li><a class="active" href="#">Education</a></li>
+  <li><a href="family.html">Family</a></li>
+  <li> <a href="gallery.html">Gallery</a></li>
+  <li><a href="hobbies.html">Hobbies</a></li>
+</ul>
+
+<section id="Education">
+ <div class="title-text">
+ </div>
+ <div class="Education-box">
+  <div class="single-Education">
+   <img src="Asset/image/skskl.jfif" height="70%">
+   <div class="overlay"></div>
+   <div class="Education-desc">
+    <a href="https://ms.wikipedia.org/wiki/Sekolah_Kebangsaan_Sungai_Korok_Lama" Target="_blank">
+        <h3>SK Sungai Korok Lama</h3></a>
+    <hr>
+    <h5>UPSR</h5>
+    <sup>5A</sup>
+   </div>
+  </div>
+ 
+ <div class="single-Education">
+   <img src="Asset/image/MRSM.jpg" height="470%">
+   <div class="overlay"></div>
+   <div class="Education-desc">
+    <a href="https://ms.wikipedia.org/wiki/Maktab_Rendah_Sains_MARA_Pendang" Target="_blank">
+      <h3>MRSM Pendang</h3></a>
+    <hr>
+    <h5>PT3</h5>
+    <sup>7A 2B 1C</sup>
+<br><br>
+    <h5>SPM</h5>
+    <sup>5A 4B</sup>
+   </div>
+  </div>
+ </div>
+<br><br>
+
+ <div class="single-Education2">
+   <img src="Asset/image/uitm.jpg" style="width:50%;height:90%;">
+   <div class="overlay"></div>
+   <div class="Education-desc2">
+    <a href="https://kedah.uitm.edu.my/" Target="_blank">
+      <h3>UiTM Merbok</h3></a>
+    <hr>
+    <h5>GPA</h5>
+    <sup>3.68</sup>
+<br><br>
+    <h5>CGPA</h5>
+    <sup>3.65</sup>
+   </div>
+  </div>
+ </div>
+
+<hr>
+  <img src="Asset/image/6K.jpg" style="width:750px; height:400px;">
+  <img src="Asset/image/05.jpg" style="width:750px; height:400px;">
+<center> 
+<img src="Asset/image/B.jpg" style="width:750px; height:400px;">
+</center>
+<hr>
+</section>
+<br>
+<footer>
+  <h4><b><i><font size="4pt" font color="#1C1C1D">"You were born to be real, not to be perfect" - Unknown</b></i></h4></font>
+   <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZwFKDMfGdZLWCHmXqbrHTRHzlwNXmgzlLlpjHPTlFKllVfLJkRJtGpPnbQTGQMjtGmdg">
+       <img src="Asset/image/logo email.png" width="5%" height="5.1%" Target="_blank"></a>  
+   <a href="https://wa.link/d17br3"><img src="Asset/image/logo whatsapp.png" width="4%" height="5%" Target="_blank"></a>  
+   <a href="https://www.instagram.com/naemahsalim/"><img src="Asset/image/logo insta.png" width="5%" height="5%"></a>  
+   <a href="https://t.me/Nurulnaemah"><img src="Asset/image/logo telegram.png" width="3%" height="5%"></a> 
+<div class="up">  
+   <a href="#top"><img src="Asset/image/up.png" width="50px" height="50px"></a>
+</div>
+<div class="block">
+ <font size="4pt" font color="#D7D7D5">
+  <p>Copyright@2022 | PROFILE</p>
+  <div id="clock">8:10:45</div>
+<br>
+</font>
+ </div>
+</footer>
+
+ <script>
+        setInterval(showTime, 1000);
+        function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+ 
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+ 
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+ 
+            let currentTime = hour + ":"
+                + min + ":" + sec + am_pm;
+ 
+            document.getElementById("clock")
+                .innerHTML = currentTime;
+        }
+ 
+        showTime();
+    </script>
+</body>
+</html>

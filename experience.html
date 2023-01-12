@@ -1,0 +1,169 @@
+
+<html>
+<head>
+<link href="asset/css/styleexperience.css" rel="stylesheet">
+<title>Experience</title>
+</head>
+<body>
+<h1><font size="103pt" font color="white">MY EXPERIENCE</h1></font>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="biodata.html">Biodata</a></li>
+  <li><a class="active" href="#">Experience</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="family.html">Family</a></li>
+  <li> <a href="gallery.html">Gallery</a></li>
+  <li><a href="hobbies.html">Hobbies</a></li>
+</ul>
+
+<br><br>
+
+
+<table border="15" align="center" width="1400px" height="100%"> 
+<tr>
+  <td bgcolor="#D7D7D5"><b>Year</b></td>
+  <td bgcolor="#D7D7D5"><b>Activities</b></td>
+  <td bgcolor="#D7D7D5"><b>Achievement</b></td>
+ </tr>
+
+ <tr>
+  <td rowspan="4"><font color="white">2014</td>
+  <td><font color="white">English Club</font></td>
+  <td><font color="white">President</td>
+ </tr>
+
+ <tr>
+  <td><font color="white">Tunas Kadet Remaja Sekolah Member</td>
+  <td><font color="white">Representatives in the district camp </td>
+ </tr>
+
+ <tr>
+  <td><font color="white">Hockey District Tournoment</td>
+  <td><font color="white">Champion</td>
+ </tr>
+
+ <tr>
+  <td><font color="white">3 years in a row</td>
+  <td><font color="white">Vice President of the class</td> 
+</tr>
+
+<tr>
+  <td><font color="white">2015</td>
+  <td> <font color="white">Committee member in Homeroon</td>
+ <td><font color="white">Secretary</td>
+ </tr>
+
+ <tr>
+  <td><font color="white">2016</td>
+  <td><font color="white">Young Entrepreneurs Club</td>
+  <td><font color="white">President</td>
+ </tr>
+
+ <tr>
+  <td><font color="white">2017</td>
+   <td><font color="white">Participate in Mathematics Olympiad</td>
+  <td><font color="white">Participant</td>
+ </tr>
+
+ <tr>
+   <td rowspan="2"><font color="white">2018</td>
+  <td><font color="white">Long distance running event</td>
+  <td><font color="white">Participant</td>
+ </tr>
+
+  <tr>
+  <td><font color="white">Young Entrepreneurs Club</td>
+  <td><font color="white">Member of the Inventory Management Authority</td>
+ </tr>
+
+<tr>
+   <td rowspan="3"><font color="white">2019</td>
+  <td><font color="white"> School Sports Events (Topaz)</td>
+  <td><font color="white">Secretary</td>
+ </tr>
+  
+<tr>
+  <td><font color="white">Young Entrepreneurs Club</td>
+  <td><font color="white">Member of the Inventory Management Authority</td>
+ </tr>
+
+<tr>
+  <td><font color="white">District-Level Cross-Country Events</td>
+  <td><font color="white">Participant</td>
+ </tr>
+
+<tr>
+   <td><font color="white">2021</td>
+  <td> <font color="white">Learning Adobe Illustrator and Photoshop</td>
+  <td><font color="white">Create magazine as our assignment</td>
+ </tr>
+
+<tr>
+   <td><font color="white">2022</td>
+  <td><font color="white"> Learning Adobe Animate</td>
+  <td><font color="white">Medium understanding</td>
+ </tr>
+
+<tr>
+   <td><font color="white">2022</td>
+  <td> <font color="white">Member of the Multimedia Authority</td>
+  <td><font color="white">Did a a great job in Information Festival</td>
+ </tr>
+</table>
+
+<br><br>
+
+
+<footer>
+<h4><b><i><font size="4pt" font color="#1C1C1D">"You were born to be real, not to be perfect" - Unknown</b></i></h4></font>
+   <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZwFKDMfGdZLWCHmXqbrHTRHzlwNXmgzlLlpjHPTlFKllVfLJkRJtGpPnbQTGQMjtGmdg">
+       <img src="Asset/image/logo email.png" width="5%" height="5.1%" Target="_blank"></a>  
+   <a href="https://wa.link/d17br3"><img src="Asset/image/logo whatsapp.png" width="4%" height="5%" Target="_blank"></a>  
+   <a href="https://www.instagram.com/naemahsalim/"><img src="Asset/image/logo insta.png" width="5%" height="5%"></a>  
+   <a href="https://t.me/Nurulnaemah"><img src="Asset/image/logo telegram.png" width="3%" height="5%"></a> 
+<div class="up">  
+   <a href="#top"><img src="Asset/image/up.png" width="50px" height="50px"></a>
+</div>
+<div class="block">
+ <font size="4pt" font color="#D7D7D5">
+  <p>Copyright@2022 | PROFILE</p>
+<div id="clock">8:10:45</div>
+<br>
+ </font>
+ </div>
+</footer>
+
+ <script>
+        setInterval(showTime, 1000);
+        function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+ 
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+ 
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+ 
+            let currentTime = hour + ":"
+                + min + ":" + sec + am_pm;
+ 
+            document.getElementById("clock")
+                .innerHTML = currentTime;
+        }
+ 
+        showTime();
+    </script>
+
+</body>
+</html>
